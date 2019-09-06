@@ -12,4 +12,6 @@ The spec is as follows:
 * The calendar needs to be able to differentiate between the seven rooms
 * If the clock time is the same as the time of an event for one of the rooms it will turn on the heating for the appropriate room, which is theoretically possible as seen on this video. https://www.youtube.com/watch?v=oaf_zQcrg7g (links to scripts and products used in the video description)
 
-The index.html file is the homepage of the website.
+There are three key parts of this project: the website that is the user interface (PHP); the database (either MySQL or SQLite) which stores the times the boilers turn on and off; the Python script which checks the database to see when boilers should turn on and off. The script ultimately has control over the boilers as the raspberry pi is plugged into them. 
+
+The index.php file is the homepage of the website. This page will allow the end user to be able to glance at the status of all the boilers (ON, OFF or STATUS UNKNOWN). If they is a fault in the system, the pi can tell which boiler is down and will be able to tell the user how to troubleshoot the issue.
