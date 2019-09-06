@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+}
+
+header, footer {
+	background-color: #55f;
+	color: white;
+	padding: 4pt;
+}
+
+h2 {
+	font-size: 20pt;
+}
