@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/1c9a09e7-bca7-4938-90bf-847f62bfeb84)](https://codebeat.co/projects/github-com-14sprouj-church-heating-master)
 # Church-Heating
 
 This project will allow heating to be set for 7 rooms remotely using a raspberry pi.
